@@ -940,59 +940,21 @@ address {
   margin-bottom: 36px;
 }
 
-.map-placeholder {
+.map-embed {
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  background: var(--bg-card);
-  height: 220px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
   overflow: hidden;
+  box-shadow: var(--shadow-card);
 }
 
-.map-placeholder::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: repeating-linear-gradient(
-    0deg,
-    var(--border) 0,
-    var(--border) 1px,
-    transparent 1px,
-    transparent 40px
-  ),
-  repeating-linear-gradient(
-    90deg,
-    var(--border) 0,
-    var(--border) 1px,
-    transparent 1px,
-    transparent 40px
-  );
-  opacity: 0.5;
+.map-embed iframe {
+  display: block;
+  filter: grayscale(0.35) brightness(0.88) contrast(1.05);
+  transition: filter var(--transition);
 }
 
-.map-placeholder-inner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  padding: 24px;
-}
-
-.map-placeholder-inner svg {
-  width: 48px;
-  height: 48px;
-}
-
-.map-placeholder-inner span {
-  font-size: 12.5px;
-  color: var(--text-muted);
-  letter-spacing: 0.05em;
+.map-embed:hover iframe {
+  filter: grayscale(0) brightness(0.95) contrast(1);
 }
 
 /* ---------- SOCIAL ---------- */
