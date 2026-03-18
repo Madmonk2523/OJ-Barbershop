@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="OJ's Barber Shop — Oscar and Jack's Barbershop in Melville, NY. Brothers owned and operated. Premium haircuts, fades, shaves, and grooming services at 701 Walt Whitman Rd." />
+  <meta name="keywords" content="barber shop, haircut, fades, Melville NY, OJ's Barber Shop, Oscar and Jacks Barbershop" />
+  <title>OJ's Barber Shop | Melville, NY — Brothers Owned &amp; Operated</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="OJ's Barber Shop home">
+        <span class="logo-main">OJ's</span>
+        <span class="logo-sub">Barber Shop</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#why-us" class="nav-link">Why Us</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#hours" class="nav-link">Hours</a></li>
+      </ul>
+      <a href="tel:6313853238" class="btn btn-gold nav-cta">Call Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content reveal">
+      <span class="hero-eyebrow">Brothers Owned &amp; Operated — Melville, NY</span>
+      <h1 class="hero-headline">
+        Precision Cuts.<br />
+        Premium Grooming.<br />
+        <em>Brothers Owned.</em>
+      </h1>
+      <p class="hero-sub">
+        Welcome to OJ's Barber Shop — where Oscar &amp; Jack bring decades of craft and camaraderie to every single cut.
+      </p>
+      <div class="hero-actions">
+        <a href="tel:6313853238" class="btn btn-gold">Call Now</a>
+        <a href="https://maps.google.com/?q=701+Walt+Whitman+Rd+Melville+NY+11747" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Get Directions</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span class="scroll-line"></span>
+      <span class="scroll-text">Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about section-pad" id="about">
+    <div class="container about-grid">
+      <div class="about-image reveal reveal-left">
+        <div class="about-img-wrap">
+          <img src="storefront.webp" alt="OJ's Barber Shop storefront in Melville, NY" loading="lazy" />
+          <div class="about-img-accent" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="about-text reveal reveal-right">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-heading">Oscar &amp; Jack's<br /><em>Brotherhood of the Blade</em></h2>
+        <p>OJ's Barber Shop isn't just a place to get a haircut — it's a destination built on family, craft, and an unwavering commitment to quality. Founded and operated by brothers Oscar and Jack, every detail in the shop reflects their shared passion for the trade.</p>
+        <p>Step inside and you'll find a clean, modern environment where the atmosphere is just as sharp as the scissors. Whether you're a longtime regular or walking through the doors for the first time, you'll feel the difference immediately.</p>
+        <p>Consistency, care, and community — that's the OJ's promise.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">8+</span>
+            <span class="stat-label">Years of Trust</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Brothers, One Vision</span>
+          </div>
+          <div class="stat-divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Dedicated to Quality</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services section-pad" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">The Menu</span>
+        <h2 class="section-heading">Services &amp; Pricing</h2>
+        <p class="section-sub">Straightforward pricing. No hidden fees. Every service delivered with precision.</p>
+      </div>
+      <div class="pricing-board reveal">
+        <div class="pricing-board-inner">
+          <div class="pricing-row">
+            <span class="pricing-name">Regular Cut</span>
+            <span class="pricing-dots" aria-hidden="true"></span>
+            <span class="pricing-price">$35</span>
+          </div>
+          <div class="pricing-row">
+            <span class="pricing-name">Fades</span>
+            <span class="pricing-dots" aria-hidden="true"></span>
+            <span class="pricing-price">$35</span>
+          </div>
+          <div class="pricing-row">
+            <span class="pricing-name">Hot Shave</span>
+            <span class="pricing-dots" aria-hidden="true"></span>
+            <span class="pricing-price">$35</span>
+          </div>
+          <div class="pricing-row">
+            <span class="pricing-name">Boys <span class="pricing-note">(under 12)</span></span>
+            <span class="pricing-dots" aria-hidden="true"></span>
+            <span class="pricing-price">$30</span>
+          </div>
+          <div class="pricing-row">
+            <span class="pricing-name">Shape Up</span>
+            <span class="pricing-dots" aria-hidden="true"></span>
+            <span class="pricing-price">$20</span>
+          </div>
+          <div class="pricing-row">
+            <span class="pricing-name">Beard Trim</span>
+            <span class="pricing-dots" aria-hidden="true"></span>
+            <span class="pricing-price">$20</span>
+          </div>
+          <div class="pricing-row">
+            <span class="pricing-name">Shape Up &amp; Beard Trim</span>
+            <span class="pricing-dots" aria-hidden="true"></span>
+            <span class="pricing-price">$30</span>
+          </div>
+          <div class="pricing-row">
+            <span class="pricing-name">Senior Citizens</span>
+            <span class="pricing-dots" aria-hidden="true"></span>
+            <span class="pricing-price">$30</span>
+          </div>
+          <div class="pricing-row">
+            <span class="pricing-name">Hair Wash</span>
+            <span class="pricing-dots" aria-hidden="true"></span>
+            <span class="pricing-price">$10</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-us section-pad" id="why-us">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">The Difference</span>
+        <h2 class="section-heading">Why OJ's?</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 4C13 4 13 16 13 16C13 16 6 18 6 28C6 36 13 44 24 44C35 44 42 36 42 28C42 18 35 16 35 16C35 16 35 4 24 4Z" stroke="#d6b36a" stroke-width="2" stroke-linejoin="round"/><path d="M18 24C18 24 20 28 24 28C28 28 30 24 30 24" stroke="#d6b36a" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Brothers Owned &amp; Operated</h3>
+          <p>Family pride runs through every cut. Oscar and Jack built this shop from the ground up — and you'll feel that personal investment every time.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="36" height="28" rx="3" stroke="#d6b36a" stroke-width="2"/><path d="M16 10V8M32 10V8" stroke="#d6b36a" stroke-width="2" stroke-linecap="round"/><path d="M6 20H42" stroke="#d6b36a" stroke-width="2"/><circle cx="16" cy="30" r="2" fill="#d6b36a"/><circle cx="24" cy="30" r="2" fill="#d6b36a"/><circle cx="32" cy="30" r="2" fill="#d6b36a"/></svg>
+          </div>
+          <h3>Clean Environment</h3>
+          <p>A meticulously maintained shop with a modern aesthetic. Because first impressions start before the first snip.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 6L28.9 16.9L41 18.7L32.5 27L34.8 39L24 33.5L13.2 39L15.5 27L7 18.7L19.1 16.9L24 6Z" stroke="#d6b36a" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Consistent Quality</h3>
+          <p>Walk in once, leave a regular. The same level of excellence, every visit — no exceptions, no off days.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 38C8 38 12 28 24 28C36 28 40 38 40 38" stroke="#d6b36a" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="18" r="8" stroke="#d6b36a" stroke-width="2"/></svg>
+          </div>
+          <h3>Great Atmosphere</h3>
+          <p>Good energy, great conversations, and a vibe that keeps clients coming back for years. This is more than a shop — it's a community.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="18" stroke="#d6b36a" stroke-width="2"/><path d="M24 14V24L30 30" stroke="#d6b36a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Fast Service</h3>
+          <p>Respect your time. Always in and out with a clean cut — no unnecessary waits, no compromises on quality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section class="reviews section-pad" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Client Voices</span>
+        <h2 class="section-heading">What They're Saying</h2>
+      </div>
+      <div class="reviews-grid">
+        <article class="review-card reveal">
+          <div class="review-quote-mark" aria-hidden="true">"</div>
+          <blockquote>
+            <p>Been coming to this barbershop for 8 years! Good people and always great vibes in the shop. Danny never disappoints with a clean cut 10/10 times.</p>
+          </blockquote>
+          <footer class="review-author">
+            <span class="review-name">Andrew Sannito</span>
+          </footer>
+        </article>
+        <article class="review-card reveal">
+          <div class="review-quote-mark" aria-hidden="true">"</div>
+          <blockquote>
+            <p>Danny always takes care of me. Great service. Great convos. Always in and out. Never late.</p>
+          </blockquote>
+          <footer class="review-author">
+            <span class="review-name">Ken James</span>
+          </footer>
+        </article>
+        <article class="review-card reveal">
+          <div class="review-quote-mark" aria-hidden="true">"</div>
+          <blockquote>
+            <p>Danny is my guy at OJ's. Great service, always a great cut and good atmosphere in the shop.</p>
+          </blockquote>
+          <footer class="review-author">
+            <span class="review-name">Mike Alt</span>
+          </footer>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOURS & LOCATION ===== -->
+  <section class="hours section-pad" id="hours">
+    <div class="container hours-grid">
+      <div class="hours-block reveal reveal-left">
+        <span class="section-label">We're Open</span>
+        <h2 class="section-heading">Hours of Operation</h2>
+        <ul class="hours-list" aria-label="Business hours">
+          <li class="hours-row" data-day="monday">
+            <span class="day">Monday</span>
+            <span class="time">9:30 AM – 7:00 PM</span>
+          </li>
+          <li class="hours-row" data-day="tuesday">
+            <span class="day">Tuesday</span>
+            <span class="time">9:30 AM – 7:00 PM</span>
+          </li>
+          <li class="hours-row" data-day="wednesday">
+            <span class="day">Wednesday</span>
+            <span class="time">9:30 AM – 7:00 PM</span>
+          </li>
+          <li class="hours-row" data-day="thursday">
+            <span class="day">Thursday</span>
+            <span class="time">9:30 AM – 7:00 PM</span>
+          </li>
+          <li class="hours-row" data-day="friday">
+            <span class="day">Friday</span>
+            <span class="time">9:30 AM – 7:00 PM</span>
+          </li>
+          <li class="hours-row closed" data-day="saturday">
+            <span class="day">Saturday</span>
+            <span class="time closed-text">Closed</span>
+          </li>
+          <li class="hours-row" data-day="sunday">
+            <span class="day">Sunday</span>
+            <span class="time">9:30 AM – 5:00 PM</span>
+          </li>
+        </ul>
+      </div>
+      <div class="location-block reveal reveal-right">
+        <span class="section-label">Find Us</span>
+        <h2 class="section-heading">Location</h2>
+        <address class="location-address">
+          701 Walt Whitman Rd<br />
+          Melville, NY 11747
+        </address>
+        <a href="tel:6313853238" class="location-phone">(631) 385-3238</a>
+        <a href="https://maps.google.com/?q=701+Walt+Whitman+Rd+Melville+NY+11747" target="_blank" rel="noopener noreferrer" class="btn btn-gold location-btn">Get Directions</a>
+        <div class="map-placeholder" role="img" aria-label="Map placeholder — 701 Walt Whitman Rd, Melville, NY 11747">
+          <div class="map-placeholder-inner">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M32 6C23.2 6 16 13.2 16 22C16 33 32 58 32 58C32 58 48 33 48 22C48 13.2 40.8 6 32 6ZM32 28C28.7 28 26 25.3 26 22C26 18.7 28.7 16 32 16C35.3 16 38 18.7 38 22C38 25.3 35.3 28 32 28Z" fill="#d6b36a" fill-opacity="0.3" stroke="#d6b36a" stroke-width="1.5"/></svg>
+            <span>701 Walt Whitman Rd, Melville, NY</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOCIAL ===== -->
+  <section class="social section-pad" id="social">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Stay Connected</span>
+        <h2 class="section-heading">Follow the Shop</h2>
+        <p class="section-sub">See the latest cuts, shop life, and more on our socials.</p>
+      </div>
+      <div class="social-buttons reveal">
+        <a href="https://www.instagram.com/ojs_exclusivecuts/" target="_blank" rel="noopener noreferrer" class="social-btn instagram">
+          <svg class="social-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          <span>@ojs_exclusivecuts</span>
+        </a>
+        <a href="https://www.facebook.com/OJS.EXCLUSIVE/" target="_blank" rel="noopener noreferrer" class="social-btn facebook">
+          <svg class="social-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M18 2H15C13.67 2 12.4 2.53 11.46 3.46C10.53 4.4 10 5.67 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73 14.11 6.48 14.29 6.29C14.48 6.11 14.73 6 15 6H18V2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+          <span>OJS.EXCLUSIVE</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FINAL CTA ===== -->
+  <section class="cta-section" id="cta">
+    <div class="cta-bg" aria-hidden="true"></div>
+    <div class="cta-overlay" aria-hidden="true"></div>
+    <div class="container cta-content reveal">
+      <span class="section-label">Ready?</span>
+      <h2 class="cta-headline">Book Your Next Cut</h2>
+      <p class="cta-sub">Call us or swing by. Walk-ins welcome.</p>
+      <a href="tel:6313853238" class="cta-phone">(631) 385-3238</a>
+      <div class="cta-actions">
+        <a href="tel:6313853238" class="btn btn-gold btn-lg">Call Now</a>
+        <a href="https://www.instagram.com/ojs_exclusivecuts/" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">View Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo-main">OJ's Barber Shop</span>
+        <span class="footer-tagline">Brothers Owned &amp; Operated</span>
+      </div>
+      <div class="footer-info">
+        <address>
+          701 Walt Whitman Rd, Melville, NY 11747<br />
+          <a href="tel:6313853238">(631) 385-3238</a>
+        </address>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/ojs_exclusivecuts/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4.5" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.facebook.com/OJS.EXCLUSIVE/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 2H15C13.67 2 12.4 2.53 11.46 3.46C10.53 4.4 10 5.67 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73 14.11 6.48 14.29 6.29C14.48 6.11 14.73 6 15 6H18V2Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 OJ's Barber Shop — Oscar &amp; Jack's Barbershop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
