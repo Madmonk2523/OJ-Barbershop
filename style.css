@@ -352,13 +352,6 @@ address {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  transform: scale(1.04);
-  transition: transform 8s ease-out;
-  will-change: transform;
-}
-
-.hero-bg.loaded {
-  transform: scale(1);
 }
 
 .hero-overlay {
@@ -1039,13 +1032,6 @@ address {
   background-image: url('background.webp');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-}
-
-@media (max-width: 768px) {
-  .cta-bg {
-    background-attachment: scroll;
-  }
 }
 
 .cta-overlay {

@@ -64,19 +64,7 @@
     }
   });
 
-  /* -----------------------------------------------
-     HERO BACKGROUND: subtle zoom-in on load
-  ----------------------------------------------- */
-  const heroBg = document.querySelector('.hero-bg');
-  if (heroBg) {
-    window.addEventListener('load', function () {
-      heroBg.classList.add('loaded');
-    });
-    // Fallback if load already fired
-    if (document.readyState === 'complete') {
-      heroBg.classList.add('loaded');
-    }
-  }
+  /* Hero background is static — no animation needed */
 
   /* -----------------------------------------------
      SCROLL REVEAL ANIMATIONS
@@ -139,32 +127,7 @@
     });
   });
 
-  /* -----------------------------------------------
-     PARALLAX: Subtle hero background scroll
-  ----------------------------------------------- */
-  const hero = document.querySelector('.hero');
-  const heroBgEl = document.querySelector('.hero-bg');
-
-  if (hero && heroBgEl) {
-    let ticking = false;
-
-    function updateParallax() {
-      const scrolled = window.scrollY;
-      const heroHeight = hero.offsetHeight;
-      if (scrolled <= heroHeight) {
-        const offset = scrolled * 0.35;
-        heroBgEl.style.transform = 'scale(1) translateY(' + offset + 'px)';
-      }
-      ticking = false;
-    }
-
-    window.addEventListener('scroll', function () {
-      if (!ticking) {
-        requestAnimationFrame(updateParallax);
-        ticking = true;
-      }
-    }, { passive: true });
-  }
+  /* Parallax removed — background is static */
 
   /* -----------------------------------------------
      PRICING ROW: subtle entry animation on focus
